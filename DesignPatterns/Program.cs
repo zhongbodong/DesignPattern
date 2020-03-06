@@ -51,7 +51,11 @@ namespace DesignPatterns
            //person+foot   聚合
            //person+iphone 关联
            #region 适配器设计模式
-           AdapterPattern.Show();
+           //AdapterPattern.Show();
+           #endregion
+
+           #region 装饰器设计模式
+           DecoratorPattern.Show();
            #endregion
             
            #endregion
