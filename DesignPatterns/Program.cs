@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using DesignPatterns.Behavior;
 using DesignPatterns.Building;
 using DesignPatterns.Structure;
 
@@ -55,7 +56,11 @@ namespace DesignPatterns
            #endregion
 
            #region 装饰器设计模式
-           DecoratorPattern.Show();
+           //DecoratorPattern.Show();
+           #endregion
+
+           #region 观察者设计模式
+           ObserverPattern.Show();
            #endregion
             
            #endregion
