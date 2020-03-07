@@ -60,7 +60,11 @@ namespace DesignPatterns
            #endregion
 
            #region 观察者设计模式
-           ObserverPattern.Show();
+           //ObserverPattern.Show();
+           #endregion
+
+           #region 责任链设计模式
+           ResponsibilityChainPattern.Show();
            #endregion
             
            #endregion
